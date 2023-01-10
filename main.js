@@ -61,11 +61,11 @@ form.addEventListener("submit", (event) => {
 
   //almacenamos la informacion del formData en un json
   const values = {
-    nombreCompleto: data.get("nombreCompleto"),
-    email: data.get("email"),
-    telefono: data.get("telefono"),
-    empresa: data.get("empresa"),
-    mensaje: data.get("mensaje"),
+    "nombreCompleto": data.get("nombreCompleto"),
+    "email": data.get("email"),
+    "telefono": data.get("telefono"),
+    "empresa": data.get("empresa"),
+    "mensaje": data.get("mensaje"),
   };
 
   //Revisamos la respuesta y si es true hacemos reset del form y un alert con mensaje de exitoso
